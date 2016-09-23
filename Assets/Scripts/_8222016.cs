@@ -93,7 +93,7 @@ public class _8222016 : MonoBehaviour
             case VideoInfo.VideoStates.READY:
                 if(cVideo.MPC.GetCurrentState() == MediaPlayerCtrl.MEDIAPLAYER_STATE.READY)
                 {
-                    TransistionTo(VideoInfo.VideoStates.PLAYING);
+                    //TransistionTo(VideoInfo.VideoStates.PLAYING);
                     if(cVideo.autoNext > 0 && cVideo.autoNext < vInfo.Count)
                     {
                         //PrepVideoAt(cVideo.autoNext);
@@ -112,12 +112,17 @@ public class _8222016 : MonoBehaviour
                     {
                         StopCurrentAndPlayAt(cVideo.autoNext);
                     }
+                    else
+                    {
+                        TransistionTo(VideoInfo.VideoStates.STOPPED);
+                    }
                 }
                 break;
             case VideoInfo.VideoStates.PAUSED:
                 break;
 
             case VideoInfo.VideoStates.STOPPED:
+                TransistionTo(VideoInfo.VideoStates.END);
                 break;
 
             case VideoInfo.VideoStates.END:
@@ -158,6 +163,9 @@ public class _8222016 : MonoBehaviour
             case VideoInfo.VideoStates.PAUSED:
                 TransistionTo(VideoInfo.VideoStates.PLAYING);
                 break;
+            default:
+                TransistionTo(VideoInfo.VideoStates.PLAYING);
+                break;
         };
     }
 
@@ -189,6 +197,14 @@ public class _8222016 : MonoBehaviour
 
     public List<VideoInfo> vInfo = new List<VideoInfo>();
     private VideoInfo cVideo;
+
+    public VideoInfo CurrentVideo
+    {
+        get
+        {
+            return cVideo;
+        }
+    }
 
 }
 
