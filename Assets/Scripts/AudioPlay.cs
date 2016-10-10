@@ -40,7 +40,7 @@ public class AudioPlay : MonoBehaviour
 
         if (y >= 10)
         {
-            FindObjectOfType<HelmetController>().play = true;
+            //FindObjectOfType<HelmetController>().play = true;
         }
     }
 }
