@@ -1,0 +1,216 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 13.03.2016 23:48:20
+
+newmtl wire_225198087
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.8824 0.7765 0.3412
+	Kd 0.8824 0.7765 0.3412
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_073073073
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.2863 0.2863 0.2863
+	Kd 0.2863 0.2863 0.2863
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_029029029
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.1137 0.1137 0.1137
+	Kd 0.1137 0.1137 0.1137
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_012012012
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.0471 0.0471 0.0471
+	Kd 0.0471 0.0471 0.0471
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_220220220
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.8627 0.8627 0.8627
+	Kd 0.8627 0.8627 0.8627
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_143143143
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5608 0.5608 0.5608
+	Kd 0.5608 0.5608 0.5608
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__86
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\AlexEnterprices\Desktop\2016-Audi-R8-grill-650x433.jpg
+	map_Kd C:\Users\AlexEnterprices\Desktop\2016-Audi-R8-grill-650x433.jpg
+
+newmtl wire_055055055
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.2157 0.2157 0.2157
+	Kd 0.2157 0.2157 0.2157
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_135006006
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.5294 0.0235 0.0235
+	Kd 0.5294 0.0235 0.0235
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__87
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\AlexEnterprices\Desktop\2016-Audi-R8-grill-650x433.jpg
+	map_Kd C:\Users\AlexEnterprices\Desktop\2016-Audi-R8-grill-650x433.jpg
+
+newmtl Material__85
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\AlexEnterprices\Desktop\2016-Audi-R8-grill-650x433.jpg
+	map_Kd C:\Users\AlexEnterprices\Desktop\2016-Audi-R8-grill-650x433.jpg
+
+newmtl wire_115115115
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.4510 0.4510 0.4510
+	Kd 0.4510 0.4510 0.4510
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_049049049
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.1922 0.1922 0.1922
+	Kd 0.1922 0.1922 0.1922
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_020020020
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.0784 0.0784 0.0784
+	Kd 0.0784 0.0784 0.0784
+	Ks 0.3500 0.3500 0.3500
+
+newmtl Material__78
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\AlexEnterprices\Desktop\brakesaudi.png
+	map_Kd C:\Users\AlexEnterprices\Desktop\brakesaudi.png
+
+newmtl Material__90
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\AlexEnterprices\Desktop\audi16interface.jpg
+	map_Kd C:\Users\AlexEnterprices\Desktop\audi16interface.jpg
+
+newmtl Material__91
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka C:\Users\AlexEnterprices\Desktop\Amboyna.jpg
+	map_Kd C:\Users\AlexEnterprices\Desktop\Amboyna.jpg
+
+newmtl wire_228214153
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.8941 0.8392 0.6000
+	Kd 0.8941 0.8392 0.6000
+	Ks 0.3500 0.3500 0.3500
+
+newmtl wire_214228153
+	Ns 32
+	d 1
+	Tr 0
+	Tf 1 1 1
+	illum 2
+	Ka 0.8392 0.8941 0.6000
+	Kd 0.8392 0.8941 0.6000
+	Ks 0.3500 0.3500 0.3500

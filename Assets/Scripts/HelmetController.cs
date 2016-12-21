@@ -17,12 +17,19 @@ public class HelmetController : MonoBehaviour
         
             if (IntroScreen.activeSelf)
             {
+                gameObject.GetComponent<AudioSource>().Stop();
                 IntroScreen.SetActive(false);
+
+                Vector3 rot = Camera.main.transform.localEulerAngles;
+                rot.x = rot.z = 0;
+                rot.y -= 90;
+                VideoPlayer.gameObject.transform.localEulerAngles = rot;
             }
         }
 
         if (VideoPlayer.GetCurrentVideoMPCState() == MediaPlayerCtrl.MEDIAPLAYER_STATE.END)
         {
+            gameObject.GetComponent<AudioSource>().Play();
             IntroScreen.SetActive(true);
         }
 

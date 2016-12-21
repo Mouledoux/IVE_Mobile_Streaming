@@ -83,6 +83,9 @@ public class _8222016 : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (Input.GetKey(KeyCode.Escape))
+            Application.Quit();
+
         switch(cVideo.fsm.m_currentState)
         {
             case VideoInfo.VideoStates.INIT:
@@ -94,10 +97,10 @@ public class _8222016 : MonoBehaviour
                 if(cVideo.MPC.GetCurrentState() == MediaPlayerCtrl.MEDIAPLAYER_STATE.READY)
                 {
                     //TransistionTo(VideoInfo.VideoStates.PLAYING);
-                    if(cVideo.autoNext > 0 && cVideo.autoNext < vInfo.Count)
-                    {
-                        //PrepVideoAt(cVideo.autoNext);
-                    }
+                    //if(cVideo.autoNext > 0 && cVideo.autoNext < vInfo.Count)
+                    //{
+                    //    //PrepVideoAt(cVideo.autoNext);
+                    //}
                 }
                 break;
 
